@@ -1,0 +1,77 @@
+.Loop{
+	margin-top: 58px;
+	width: 100%;
+	position: relative;
+}
+.Loop>ul{
+	width: 100%;
+	min-height: 460px;
+	position: relative;
+}
+.Loop>ul>li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.Loop>ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+.box{
+
+}
+@media (max-width: 1200px) and (min-width: 970px){
+	.Loop>ul{
+	width: 100%;
+	min-height: 400px;
+}
+    
+}
+@media (max-width: 970px) and (min-width: 800px){
+   .Loop>ul{
+	width: 100%;
+	min-height: 320px;
+}
+}
+
+@media (max-width: 800px) and (min-width: 600px){
+  .Loop>ul{
+	width: 100%;
+	min-height: 269px;
+}
+}
+@media screen and (max-width: 600px){
+    .Loop>ul{
+	width: 100%;
+	min-height: 440px;
+	}
+	.Loop>ul>li>img{
+	width: 100%;
+	height: 440px;
+}
+}
+
+.btn{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	/*text-align: center;*/
+}
+.btn>ul{
+	width: 300px;
+	margin: auto;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+}
+.btn>ul>li{
+	width: 20%;
+	margin: 0 5px;
+	height: 6px;
+	background-color: #fff;
+	opacity: 0.6;
+	justify-content: space-between;
+	cursor: pointer;
+}

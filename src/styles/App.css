@@ -1,0 +1,16 @@
+/* Base Application Styles */
+body,html {
+  width: 100%;
+  height: 100%;
+}
+.notice{
+  width: 100%;
+  background: #fff;
+  
+}
+.index{
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
